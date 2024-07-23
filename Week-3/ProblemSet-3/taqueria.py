@@ -18,7 +18,7 @@ def main():
                 total_cost += items[get_input]
                 print(f"Total: ${total_cost:.2f}")
             else:
-                pass
+                continue
         except EOFError:
             print()
             break

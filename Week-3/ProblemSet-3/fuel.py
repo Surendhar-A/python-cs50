@@ -10,11 +10,11 @@ def fuel_guage():
             y = int(y)
             fuel_left = round((x/y) * 100)
             if x > y:
-                True
+                continue
             else:
                 break
         except (ValueError,ZeroDivisionError):
-            True
+            continue
     if fuel_left <= 1:
         return ("E")
     elif fuel_left >= 99:

@@ -4,7 +4,7 @@ def main():
     print_square(3)
 
 # Method 1
-""" 
+"""
 def print_square(size):
     #print("#" * size)
     for i in range(size):
@@ -30,5 +30,5 @@ def print_square(size):
 
 def print_row(width):
     print('#' * width)
-    
+
 main()
